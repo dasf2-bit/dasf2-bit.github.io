@@ -327,6 +327,78 @@
 
 <h1 style="display: none">dasf2-bit 的博客</h1>
 
+<style>
+  .profile-card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin: 0 auto 22px;
+    max-width: 1000px;
+    box-shadow: 0 2px 14px rgba(228, 104, 90, 0.12);
+    border: 1px solid #F5E2DC;
+  }
+  .profile-avatar {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FFD2BC;
+    flex: 0 0 auto;
+  }
+  .profile-main { flex: 1 1 240px; min-width: 0; }
+  .profile-name {
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: #2C3E50;
+    margin-bottom: 4px;
+  }
+  .profile-intro {
+    font-size: 0.92rem;
+    color: #8B7A75;
+    line-height: 1.5;
+  }
+  .profile-links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .profile-links a {
+    display: inline-block;
+    font-size: 0.86rem;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: #E4685A;
+    color: #fff !important;
+    text-decoration: none !important;
+    transition: background 0.2s ease;
+  }
+  .profile-links a:hover { background: #F08573; }
+  html[data-user-color-scheme="dark"] .profile-card {
+    background: #2A2020;
+    border-color: #4A3632;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.35);
+  }
+  html[data-user-color-scheme="dark"] .profile-name { color: #F3E4E0; }
+  html[data-user-color-scheme="dark"] .profile-intro { color: #A79F9C; }
+  @media (max-width: 575px) {
+    .profile-card { padding: 16px; gap: 14px; }
+    .profile-avatar { width: 60px; height: 60px; }
+  }
+</style>
+
+<div class="profile-card">
+  <img class="profile-avatar" src="/img/avatar-cat.jpg" srcset="/img/loading.gif" lazyload alt="avatar">
+  <div class="profile-main">
+    <div class="profile-name">dasf2-bit</div>
+    <div class="profile-intro">记录技术与生活</div>
+  </div>
+  <div class="profile-links">
+    <a href="https://github.com/dasf2-bit" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="/about/">关于我</a>
+  </div>
+</div>
+
+
   <div class="row mx-auto index-card">
     
     
