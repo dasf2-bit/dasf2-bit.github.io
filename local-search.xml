@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>你好，世界</title>
+    <link href="/2026/11/27/hello-world/"/>
+    <url>/2026/11/27/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>博客搭好了，这是第一篇文章。</p><p>从今天开始，这里会放一些技术笔记、踩坑记录，以及偶尔的胡思乱想。</p><h2 id="关于这个站点"><a href="#关于这个站点" class="headerlink" title="关于这个站点"></a>关于这个站点</h2><ul><li>由 <a href="https://hexo.io/">Hexo</a> 生成，源码托管在 GitHub，构建结果发布在 GitHub Pages</li><li>域名 <code>blog.znyue.com</code> 通过 CNAME 指向 <code>dasf2-bit.github.io</code></li><li>主题目前是默认的 landscape，以后可能换</li></ul><h2 id="写点什么"><a href="#写点什么" class="headerlink" title="写点什么"></a>写点什么</h2><p>技术方面想记录的有：</p><ul><li>环境配置与工具链，那些“下次一定还会踩”的坑</li><li>读源码时的理解，写下来才算真懂</li><li>一些小的脚本和自动化尝试</li></ul><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>这篇文章只是占位，之后会陆续替换成真正的内容。</p><p>如果你看到了这里，说明部署链路是通的——这本身就是一件值得高兴的事。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>随笔</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
